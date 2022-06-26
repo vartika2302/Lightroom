@@ -31,11 +31,11 @@ function StudentRegister() {
         <StudentLogo>
           light<span>room</span>
         </StudentLogo>
-        <StudentRegisterImage src="https://cdn.dribbble.com/users/76454/screenshots/9784895/media/99055843781d38d05707edfb6e16b86b.png?compress=1&resize=400x300&vertical=top" />
+        <StudentRegisterImage src="https://cdn.dribbble.com/users/76454/screenshots/6596459/drbbb_4x.png?compress=1&resize=1000x750&vertical=top" />
       </StudentRegisterLeft>
       <StudentRegisterRight>
         <StudentRegisterWrapper>
-          <StudentRegisterHeading>Sign in to Lightroom</StudentRegisterHeading>
+          <StudentRegisterHeading>Sign up to Lightroom</StudentRegisterHeading>
           <StudentRegisterForm>
             <StudentRegisterItem>
               <Label>Name</Label>
@@ -57,7 +57,7 @@ function StudentRegister() {
               <Label>Confirm Password</Label>
               <Input type="password" />
             </StudentRegisterItem>
-            <StudentRegisterBtn>Login</StudentRegisterBtn>
+            <StudentRegisterBtn>Sign up</StudentRegisterBtn>
           </StudentRegisterForm>
         </StudentRegisterWrapper>
       </StudentRegisterRight>
