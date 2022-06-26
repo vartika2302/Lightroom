@@ -2,11 +2,12 @@
 import './App.css';
 
 import Home from './pages/Home';
+import StudentRegister from './pages/StudentRegister';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <StudentRegister/>
     </div>
   );
 }

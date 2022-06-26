@@ -6,9 +6,9 @@ const NavbarWrapper = styled.div``;
 
 const NavbarLeft = styled.div``;
 
-const NavbarHeading = styled.h3``;
+const NavbarHeading = styled.h1``;
 
-const NavbarImage = styled.img``;
+
 const NavbarRight = styled.div``;
 
 const NavbarItem = styled.span``;
@@ -20,9 +20,8 @@ function Navbar() {
     <NavbarContainer>
       <NavbarWrapper>
         <NavbarLeft>
-          <NavbarImage src="https://cdn-icons-png.flaticon.com/128/2148/2148883.png" />
           <NavbarHeading>
-            Light<span>room</span>
+            light<span>room</span>
           </NavbarHeading>
         </NavbarLeft>
         <NavbarRight>
