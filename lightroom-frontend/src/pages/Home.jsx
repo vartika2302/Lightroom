@@ -1,5 +1,7 @@
+
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
+import RoleLogin from '../components/RoleLogin';
 
 
 function Home() {
@@ -7,6 +9,7 @@ function Home() {
         <div className='home'>
             <Navbar/>
             <Header/>
+            <RoleLogin/>
         </div>
     )
 }
