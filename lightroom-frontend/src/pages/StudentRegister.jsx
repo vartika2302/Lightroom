@@ -18,7 +18,7 @@ const StudentRegisterItem = styled.div``;
 
 const StudentRegisterForm = styled.form``;
 
-const Label = styled.span``;
+const Label = styled.label``;
 
 const Input = styled.input``;
 
@@ -38,8 +38,12 @@ function StudentRegister() {
           <StudentRegisterHeading>Sign up to Lightroom</StudentRegisterHeading>
           <StudentRegisterForm>
             <StudentRegisterItem>
-              <Label>Name</Label>
+              <Label>First name</Label>
               <Input type="text" />
+            </StudentRegisterItem>
+            <StudentRegisterItem>
+              <Label>Last name</Label>
+              <Input type="text"/>
             </StudentRegisterItem>
             <StudentRegisterItem>
               <Label>Username</Label>
