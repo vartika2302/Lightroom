@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const NavbarContainer = styled.div`
   background-color: #f9f9f9;
-  width: 100vw;
+  width: 100%;
   height: 6.2rem;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@ const NavbarContainer = styled.div`
 const NavbarWrapper = styled.div`
   display: flex;
   align-items: center;
-  width: 90vw;
+  width: 85%;
   height: 5rem;
 `;
 
