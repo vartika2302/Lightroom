@@ -18,12 +18,11 @@ const StudentLoginForm = styled.form``;
 
 const StudentLoginItem = styled.div``;
 
-const Label = styled.span``;
+const Label = styled.label``;
 
 const Input = styled.input``;
 
 const StudentLoginBtn = styled.button``;
-
 
 function StudentLogin() {
   return (
@@ -38,15 +37,13 @@ function StudentLogin() {
         <StudentLoginWrapper>
           <StudentLoginHeading>Sign in to Lightroom</StudentLoginHeading>
           <StudentLoginForm>
-            
-            
             <StudentLoginItem>
-              <Label>Username/Email</Label>
-              <Input type="email" />
+              <Label>Email</Label>
+              <Input type="email" required/>
             </StudentLoginItem>
             <StudentLoginItem>
               <Label>Password</Label>
-              <Input type="password" />
+              <Input type="password" required/>
             </StudentLoginItem>
             <StudentLoginBtn>Sign in</StudentLoginBtn>
           </StudentLoginForm>

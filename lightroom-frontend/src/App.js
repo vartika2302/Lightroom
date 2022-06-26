@@ -10,7 +10,7 @@ import TeacherRegister from './pages/TeacherRegister';
 function App() {
   return (
     <div className="App">
-      <TeacherRegister/>
+      <TeacherLogin/>
     </div>
   );
 }
