@@ -117,7 +117,7 @@ function TeacherLogin() {
               <Label>Password</Label>
               <Input type="password" required />
             </TeacherLoginItem>
-            <TeacherLoginBtn>Sign in</TeacherLoginBtn>
+            <TeacherLoginBtn>Sign In</TeacherLoginBtn>
           </TeacherLoginForm>
         </TeacherLoginRightWrapper>
       </TeacherLoginRight>
