@@ -6,7 +6,7 @@ const TeacherRegisterLeft = styled.div``;
 
 const TeacherLogo = styled.h1``;
 
-const TeacherRegisterVideo = styled.video``;
+const TeacherRegisterImage = styled.img``;
 
 const TeacherRegisterRight = styled.div``;
 
@@ -29,12 +29,8 @@ function TeacherRegister() {
         <TeacherLogo>
           light<span>room</span>
         </TeacherLogo>
-        <TeacherRegisterVideo autoPlay loop muted>
-          <source
-            src="https://cdn.dribbble.com/users/76454/screenshots/14677011/media/09e48238cfaaa6b2f859e3cbd3ce7c04.mp4"
-            type="video/mp4"
-          />
-        </TeacherRegisterVideo>
+        <TeacherRegisterImage src="https://cdn.dribbble.com/users/3289568/screenshots/7217681/media/06168f63d0b75d740b5540ccd34d34be.gif"/>
+         
       </TeacherRegisterLeft>
       <TeacherRegisterRight>
         <TeacherRegisterHeading>Sign up to Lightroom</TeacherRegisterHeading>
