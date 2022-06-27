@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link} from 'react-router-dom';
 
 const RoleLoginContainer = styled.div`
   width: 100%;
@@ -53,8 +54,8 @@ const RoleLoginHead = styled.h3`
 `;
 
 const RoleLoginInfo = styled.p`
-font-size: 15px;
-font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
 `;
 
 const RoleLoginBtn = styled.button`
@@ -63,7 +64,7 @@ const RoleLoginBtn = styled.button`
   border: none;
   border-radius: 20px;
   color: #fff;
-  font-size:0.9rem;
+  font-size: 0.9rem;
   cursor: pointer;
   text-transform: uppercase;
 `;
@@ -79,13 +80,15 @@ function RoleLogin() {
           <RoleLoginRight>
             <RoleRightWrapper>
               <RoleLoginHeading>
-                Are you a <RoleLoginHead>TEACHER ?</RoleLoginHead> 
+                Are you a <RoleLoginHead>TEACHER ?</RoleLoginHead>
               </RoleLoginHeading>
               <RoleLoginInfo>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </RoleLoginInfo>
-              <RoleLoginBtn>Login</RoleLoginBtn>
+              <Link to="/teacher/login">
+                <RoleLoginBtn>Login</RoleLoginBtn>
+              </Link>
             </RoleRightWrapper>
           </RoleLoginRight>
         </RoleLoginTop>
@@ -93,13 +96,15 @@ function RoleLogin() {
           <RoleLoginLeft>
             <RoleRightWrapper>
               <RoleLoginHeading>
-                Are you a <RoleLoginHead>STUDENT ?</RoleLoginHead> 
+                Are you a <RoleLoginHead>STUDENT ?</RoleLoginHead>
               </RoleLoginHeading>
               <RoleLoginInfo>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </RoleLoginInfo>
+              <Link to="/student/login">
               <RoleLoginBtn>Login</RoleLoginBtn>
+              </Link>
             </RoleRightWrapper>
           </RoleLoginLeft>
           <RoleLoginRight>

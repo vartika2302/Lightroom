@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const NavbarContainer = styled.div`
   background-color: #f9f9f9;
@@ -65,7 +66,9 @@ function Navbar() {
           <NavbarItem>About Us</NavbarItem>
           <NavbarItem>Dashboard</NavbarItem>
           <NavbarItem>Contact Us</NavbarItem>
-          <NavbarBtn>LOG IN</NavbarBtn>
+          <Link to="/student/login">
+            <NavbarBtn>LOG IN</NavbarBtn>
+          </Link>
         </NavbarRight>
       </NavbarWrapper>
     </NavbarContainer>
