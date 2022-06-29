@@ -25,6 +25,7 @@ mongoose.connection.on("connected", () => {
 
 //middlewares
 app.use(express.json());
+app.use("/api/auth",authRoute)
 
 //error handler middleware
 app.use((err, req, res, next) => {
